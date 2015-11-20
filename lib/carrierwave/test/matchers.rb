@@ -283,7 +283,7 @@ module CarrierWave
               begin
                 require 'rmagick'
               rescue LoadError
-                require 'RMagick'
+                require 'rmagick'
               rescue LoadError
                 puts "WARNING: Failed to require rmagick, image processing may fail!"
               end
@@ -326,4 +326,3 @@ module CarrierWave
     end # Matchers
   end # Test
 end # CarrierWave
-
