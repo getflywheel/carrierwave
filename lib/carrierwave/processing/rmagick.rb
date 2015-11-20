@@ -62,7 +62,7 @@ module CarrierWave
 
     included do
       begin
-        require "RMagick"
+        require "rmagick"
       rescue LoadError => e
         e.message << " (You may need to install the rmagick gem)"
         raise e
