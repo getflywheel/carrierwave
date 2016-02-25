@@ -1,6 +1,7 @@
 # encoding: utf-8
 
-require "fog"
+require "fog/core"
+require "fog/aws"
 
 module CarrierWave
   module Storage

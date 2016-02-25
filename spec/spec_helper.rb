@@ -14,7 +14,8 @@ require 'sham_rack'
 require 'mini_magick'
 require 'generator_spec'
 
-require 'fog'
+require 'fog/core'
+require 'fog/aws'
 require 'storage/fog_helper'
 
 unless ENV['REMOTE'] == 'true'

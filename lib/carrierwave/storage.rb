@@ -2,7 +2,8 @@ require "carrierwave/storage/abstract"
 require "carrierwave/storage/file"
 
 begin
-  require "fog"
+  require "fog-core"
+  require "fog-aws"
 rescue LoadError
 end
 
